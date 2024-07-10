@@ -31,7 +31,7 @@ def is_enabled(value, default):
 
 AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002014131153').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
 
-API = environ.get("API", "f037e10475dd1a9e4a9f163787a6bbc3c8c708ab"") # shortlink api
+API = environ.get("API", "f037e10475dd1a9e4a9f163787a6bbc3c8c708ab") # shortlink api
 URL = environ.get("URL", "zipshort.net") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_to_download_movies_in_group/10") # how to open link 
 BOT_USERNAME = environ.get("BOT_USERNAME", "SA_file_store_bot") # bot username without @
